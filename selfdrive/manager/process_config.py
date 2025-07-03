@@ -45,7 +45,7 @@ procs = [
   PythonProcess("dmonitoringd", "selfdrive.monitoring.dmonitoringd", enabled=dp_dm, callback=driverview),
   # PythonProcess("laikad", "selfdrive.locationd.laikad"),
   # PythonProcess("navd", "selfdrive.navd.navd"),
-  PythonProcess("pandad", "selfdrive.boardd.pandad", offroad=True),
+  PythonProcess("pandad", "selfdrive.boardd.pandad", offroad=False),
   PythonProcess("paramsd", "selfdrive.locationd.paramsd"),
   PythonProcess("pigeond", "selfdrive.sensord.pigeond", enabled=TICI),
   PythonProcess("plannerd", "selfdrive.controls.plannerd"),
