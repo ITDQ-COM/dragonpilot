@@ -60,7 +60,7 @@ procs = [
   # PythonProcess("laikad", "selfdrive.locationd.laikad"),
   # PythonProcess("rawgpsd", "system.sensord.rawgps.rawgpsd", enabled=TICI, onroad=False, callback=qcomgps),
   PythonProcess("navd", "selfdrive.navd.navd"),
-  PythonProcess("pandad", "selfdrive.boardd.pandad", offroad=True),
+  PythonProcess("pandad", "selfdrive.boardd.pandad", offroad=False),
   PythonProcess("paramsd", "selfdrive.locationd.paramsd"),
   # NativeProcess("ubloxd", "system/ubloxd", ["./ubloxd"], enabled=TICI, onroad=False, callback=ublox),
   # PythonProcess("pigeond", "system.sensord.pigeond", enabled=TICI, onroad=False, callback=ublox),
